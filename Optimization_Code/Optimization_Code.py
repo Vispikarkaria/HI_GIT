@@ -50,44 +50,28 @@ class Optimization:
         
 
 
-# In[149]:
+# In[ ]:
 
 
-golden_Section = Optimization()
 
 
-# In[150]:
+
+# In[ ]:
 
 
-import numpy as np
-from sympy import symbols, Eq
-from sympy.functions import exp
-x = symbols('x')
-golden_Section.golden_section_search(0.5-(x*exp(-(x**2 ))), 3, 0, 2)
 
 
-# In[102]:
+
+# In[ ]:
 
 
-class Calc:
-    def __init__(self,a,b):
-        self.a = a
-        self.b = b
-    def add(self):
-        return self.a+self.b
-    def sub(self):
-        return self.a-self.b
-    def mult(self):
-        return self.a*self.b
-    def div(self):
-        return self.a/self.b
 
 
-# In[105]:
+
+# In[ ]:
 
 
-Jake = Calc(2, 3)
-Jake.add()
+
 
 
 # In[ ]:
